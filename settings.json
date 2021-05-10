@@ -1,0 +1,89 @@
+{
+    "search.exclude": {       
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "build/": true,
+        "temp/": true,
+        "library/": true,
+        "**/*.anim": true
+    },
+    "fileheader.customMade": {
+        "Author":"IIISakura",
+        "Project":"",
+        "Description":""
+    },
+    "fileheader.configObj": {
+        "autoAdd": false, // 自动添加头部注释开启才能自动添加
+        "autoAlready": false, // 默认开启
+    },
+    "settingsSync.ignoredSettings": [],
+    "typescript.locale": "zh-CN",
+    "background.loop": true,
+    "editor.tabSize": 4,
+    "editor.formatOnPaste": true,
+    "editor.detectIndentation": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.lineNumbers": "on", //开启行数提示
+    // "editor.quickSuggestions": {
+    //     //开启自动显示建议
+    //     "other": true,
+    //     "comments": true,
+    //     "strings": true
+    // },
+  "prettier.useTabs": true, //使用制表符缩进
+  "prettier.semi": true, //去掉代码结尾的分号
+  "prettier.singleQuote": true, //使用单引号替代双引号
+  "prettier.trailingComma": "none", //去除对象最末尾元素跟随的逗号
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //让函数(名)和后面的括号之间加个空格
+  "vetur.format.defaultFormatter.html": "js-beautify-html", //格式化.vue中html
+  "vetur.format.defaultFormatter.js": "vscode-typescript", //让vue中的js按编辑器自带的ts格式进行格式化
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_line_length": 120, // 设置多个字符后换行 0 表示忽略
+            "wrap_attributes": "auto",
+            "end_with_newline": true
+        },
+        "prettyhtml": {
+            "printWidth": 100,
+            "singleQuote": false,
+            "wrapAttributes": false,
+            "sortAttributes": false
+        },
+        "prettier": {
+            "semi": false,
+            "singleQuote": true
+        }
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.run": "onSave",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "prettier.printWidth": 200, //指定代码长度，超出换行
+    "prettier.requireConfig": true, //需要prettier.requireConfig格式化
+    "prettier.useEditorConfig": false,
+    "terminal.integrated.rendererType": "dom",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.alwaysShowStatus": true,
+    "editor.formatOnSave": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.defaultFormatter": "octref.vetur",
+    "eslint.codeAction.showDocumentation": {
+
+    "enable": true
+},
+"[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"vetur.format.options.useTabs": true,
+"http.proxyAuthorization": null,
+"editor.semanticHighlighting.enabled": false
+}
